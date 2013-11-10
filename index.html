@@ -8,25 +8,52 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
   </head>
   <body>
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-    <div class="container" style="padding-top: 50px">
-      <div class="row-fluid">
-        <div class="span2">
-        </div>
-        <div class="span4">
-          <h1>Keith Laidlaw</h1>
-          <h3>webhead</h3>
+    <div class="navbar">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <div class="navbar-inner">
+        <a class="brand" href="#">Keith Laidlaw</a>
+      </div>
+
+    </div>
+
+    <div class="container" style="padding-top: 50px">
+
+      <div class="row-fluid">
+
+
+
+        <div class="span3">
+          <a href="http://twitter.com/scribacious">Twitter</a>
         </div>
-        <div class="span4">
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="span3">
+          <a href="http://www.linkedin.com/in/keithlaidlaw">LinkedIn</a>
         </div>
-        <div class="span2">
+        <div class="span3">
+          <a href="http://www.youtube.com/scribacious">YouTube</a>
+        </div>        
+        <div class="span3">
+            <form action="http://www.mydomain.com/cgi-sys/formmail.pl" method="post" > 
+              <fieldset>
+              <legend>Get in touch!</legend>
+                <input type="hidden" name="recipient" value="mail@keithlaidlaw.com"> 
+                <input type="hidden" name="subject" value="FormMail E-Mail"> 
+                <input type="text" class="input-small" name="email" placeholder="your email"><br />
+                <input type="text" class="input-small" name="tellme" placeholder="message"><br />
+                <button type="submit" value="Send" class="btn">submit</button>
+                <input type="hidden" name="redirect" value="http://mydomain.com/redirect-path">
+              </fieldset>
+            </form> 
         </div>
       </div>
-    </div>
+      
+      
+     </div>
+
+
+
   </body>
 </html>
